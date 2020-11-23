@@ -1,0 +1,351 @@
+body {
+  background-color: #ece9e3;
+  width: 100%;
+  height: 100%;
+  padding: 0em;
+  overflow-x: hidden;
+}
+#header {
+  font-size: 26px;
+  color: black;
+  text-align: center;
+  letter-spacing: 5px;
+  justify-content: center;
+  text-decoration: none;
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+  padding: 0.5em;
+}
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #ece9e3;
+}
+.navbar a {
+  font-family: "Made mirage webfont", "Palatino Linotype", sans-serif;
+  font-style: italic;
+  color: black;
+  font-weight: lighter;
+}
+li {
+  display: inline;
+  color: black;
+  padding: 0.5em 1em;
+  font-size: 1.5em;
+}
+ul {
+  text-align: center;
+  justify-content: center;
+}
+.mainimage img {
+  width: 80em;
+  height: 60em;
+  text-align: center;
+  margin: 5em 5em;
+  padding-left: 2em;
+  padding-right: 2em;
+  border-width: 5em 5em;
+  border-style: none;
+  max-width: 100%;
+  height: auto;
+}
+#heading1 {
+  text-align: center;
+  font-family: "Made mirage webfont", "Palatino Linotype", sans-serif;
+  font-style: italic;
+  color: black;
+  font-weight: lighter;
+  font-size: 3em;
+  letter-spacing: 0.5px;
+  line-height: 1em;
+  margin-top: 2em;
+  margin-bottom: 3em;
+  max-width: 100%;
+  height: auto;
+}
+
+p {
+  text-align: center;
+  font-family: "Made mirage webfont", "Palatino Linotype", sans-serif;
+  font-style: italic;
+  color: black;
+  font-weight: lighter;
+  font-size: 1.5em;
+  letter-spacing: 0.1px;
+  line-height: 1.2em;
+}
+h1 {
+  font-size: 6em;
+  text-align: center;
+  font-family: "Made mirage webfont", "Palatino Linotype", sans-serif;
+  letter-spacing: 0.1em;
+  line-height: 1em;
+  font-weight: 100;
+  font-style: italic;
+}
+h2 {
+  font-size: 2em;
+  text-align: center;
+  font-family: "Made mirage webfont", "Palatino Linotype", sans-serif;
+  letter-spacing: 0.1em;
+  line-height: 1em;
+  font-weight: 100;
+  font-style: italic;
+  text-transform: uppercase;
+}
+.firstblock {
+  width: 40em;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  border-left: none;
+  border-right: none;
+  padding: 1.5em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  line-height: 1em;
+  text-align: center;
+  box-sizing: content-box;
+  max-width: 100%;
+  height: auto;
+}
+.vl {
+  border-left: 1px solid black;
+  height: 8em;
+  position: absolute;
+  left: 50%;
+  margin-left: -1em;
+  top: auto;
+  z-index: -1;
+}
+#firstblockH2 {
+  margin-top: 1.5em;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #d3cdc3;
+  justify-content: center;
+  align-content: flex-start;
+  align-items: center;
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 100px;
+}
+.flex-container > div {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+}
+.item1 {
+  width: 300px;
+  height: 300px;
+  margin: 5px;
+}
+.item1 img {
+  width: 18em;
+  height: 18em;
+  object-fit: cover;
+}
+.item4 {
+  min-height: 400px;
+  width:300px;
+}
+.item4 img {
+  height: 24em;
+  width:300px;
+}
+.item5 {
+  min-height: 400px;
+  width: 700px;
+}
+.block1 {
+  display: flex;
+  flex-direction: row;
+  background-color: #ece9e3;
+  justify-content: space-evenly;
+  margin-top: 5em;
+  margin-left: 4em;
+  margin-right: 4em;
+  margin-bottom: 5em;
+}
+.block1 > div {
+  background-color: black;
+  color: whitesmoke;
+  text-align: center;
+  padding: 2em;
+  margin: 2em;
+  width: 60em;
+  height: 22em;
+}
+#roundTag {
+  border-radius: 200px 200px 0px 0px;
+  background: linear-gradient(
+    180deg,
+    rgba(214, 208, 195, 0.94),
+    rgba(236, 233, 227, 0.94)
+  );
+  padding: 20px 0;
+  text-align: center;
+  width: 4em;
+  height: auto;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0em;
+  margin-top: 1em;
+  font-size: 6vw;
+  font-weight: normal;
+  font-family: "Made mirage webfont", "Palatino Linotype", sans-serif;
+  color: black;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+  line-height: 3.5em;
+  vertical-align: middle;
+}
+#roundTag a {
+  color: black;
+  text-decoration: none;
+}
+.footer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 76em;
+  border: 0.1em solid black;
+padding: 3em 3em;
+margin-bottom: 0em;
+margin-left: 6em;
+margin-top: 0em;
+line-height: 1em;
+box-sizing: content-box;
+  }
+  .footerLogoBox {
+      width: 18em;
+      height: 18em;
+      background-color: #f1f1f1;
+    margin-top: 0em;
+    margin-left: 0em;
+    margin-bottom: 2em;
+    margin-right: 1em;
+    padding-top: 2em;
+    padding-left: 2em;
+    padding-bottom: 1em;
+    padding-right: 2em;
+    max-width: 100%;
+  height: auto;
+  }
+  .footerLogoBox img {
+      width: 12em;
+      height: 12em;
+padding-left: 1em;
+padding-top: 0em;
+  }
+  .footerContactBox {
+      width: 18em;
+      height: 18em;
+      background-color: #f1f1f1;
+    margin-top: 0em;
+    margin-left: 0em;
+    margin-bottom: 0em;
+    margin-right: 0em;
+    padding-top: 2em;
+    padding-right: 2em;
+    padding-bottom: 1em;
+    padding-right: 2em;
+    line-height: 1em;
+  }
+  .footerContactBox a {
+    color: black;
+  }
+  .footerIconBox {
+      width: 18em;
+      height: 18em;
+      background-color: #f1f1f1;
+    margin-top: 0em;
+    margin-left: 0em;
+    margin-bottom: 0em;
+    margin-right: 0em;
+    padding-top: 2em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    padding-left: 2em;
+  }
+  .fa {
+      padding: 0.5em;
+      font-size: 30px;
+      width: 5em;
+      text-align: center;
+      text-decoration: none;
+      margin-left:  0.2em;
+      margin-top: 6em;
+      margin-bottom: 0em;
+      border-radius: 40%;
+    }
+    .fa:hover {
+      opacity: 0.7;
+  }
+  .fa-facebook {
+      background: #3B5998;
+      color: white;
+    }
+
+    .fa-twitter {
+      background: #55ACEE;
+      color: white;
+    }
+
+    .fa-pinterest {
+      background: #cb2027;
+      color: white;
+    }
+    .fa-linkedin {
+      background: #007bb5;
+      color: white;
+    }
+    #letterbox {
+        text-align: left;
+        margin-top: 3em;
+        margin-left: 0.5em;
+        font-size: 2em;
+        font-weight: inherit;
+        text-decoration: none;
+    }
+    .submit {
+        background-color:#f1f1f1 ;
+        border-color: black;
+        border-radius: 20%;
+
+    }
+    #email {
+        background-color: #dad8d8;
+        border-bottom: 0.1em solid black;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+    }
+    .footer p {
+      font-size: 1.2em;
+      letter-spacing: 00.1em;
+      line-height: 1.2em;
+      font-weight: lighter;
+      font-style: italic;
+      text-decoration: none;
+      letter-spacing: 0.1px;
+    }
+  .rights {
+      text-align: left;
+      margin-bottom: 2em;
+      margin-left: 5em;
+      text-decoration: none;
+      font-size: 1.2em;
+      line-height: 0.5em;
+      font-style: italic;
+      font-weight: lighter;
+  }

@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> Furniture Store</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initisl-scale=1.0" />
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <ul>
+            <li id="homenav"><a style="text-decoration: none" href="homepage.html">Oakly Homes</a></li>
+        </ul>
+        <hr>
+        <ul>
+            <li class="active"><a style="text-decoration: none" href="achievements.html">projects</a></li>
+            <li class="active"><a style="text-decoration: none" href="collectionpage.html">collection</a></li>
+            <li class="active"><a style="text-decoration: none" href="aboutpage.html">about</a></li>
+            <li class="active"><a style="text-decoration: none" href="contactpage.html">contact</a></li>
+        </ul>
+        <div class="hovereffect"></div>
+
+        <hr>
+
+    </header>
+
+    <div class="page1block1">
+        <h1>Here Quality Takes Over.</h1>
+        <p> <img src="office1.jpeg" alt="living room"> </p>
+        <div class="textOnImage">OH</div>
+    </div>
+
+
+    <div class="page1block2">
+        <h2> In Business Since 1992</h2>
+        <p>We specialize in the manufacture of high-end custom furniture.</p>
+    </div>
+    <div class="vl2"></div>
+
+    <div id="block3heading">
+        <h1>Projects</h1>
+
+    </div>
+    <div class="page1block3">
+        <div class="block3paragraph">
+            <p>We are proud that all operations are carried out in Oakly Homes by trained cabinetmakers and
+                experienced finishing specialists.About twenty passionate men and women fuel our determination to
+                offer a quality product and anexceptional experience.</p>
+        </div>
+        <!-- the html and java code  is taken from w3doc school> -->
+        <div class="slide-container">
+            <div class="w3-content w3-display-container">
+                <img class="mySlides" src="bedroom.jpeg " alt="furniture pic">
+                <img class="mySlides" src="office.webp" alt="furniture pic">
+                <img class="mySlides" src="pexels-photo-outdoor.jpeg" alt="furniture pic">
+                <img class="mySlides" src="pexels-photo-kitchen.jpeg" alt="furniture pic">
+
+                <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+            </div>
+            <script>
+                var slideIndex = 1;
+                showDivs(slideIndex);
+
+                function plusDivs(n) {
+                    showDivs(slideIndex += n);
+                }
+
+                function showDivs(n) {
+                    var i;
+                    var x = document.getElementsByClassName("mySlides");
+                    if (n > x.length) { slideIndex = 1 }
+                    if (n < 1) { slideIndex = x.length }
+                    for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";
+                    }
+                    x[slideIndex - 1].style.display = "block";
+                }
+            </script>
+        </div>
+    </div>
+
+
+    <div class="block4">
+        <div class="page1block4">
+            <h1>Our Collection</h1>
+            <img src="sofapair.jpeg" alt="sofa picture">
+        </div>
+        <div class="table-container">
+            <div class="bloc4img">
+                <div class="tableimg"> <img src="dinning.jpeg" alt="dinning pic"></div>
+                <div class="tableimg"> <img src="furniture-room.jpg" alt="room pic"> </div>
+                <div class="tableimg"> <img src="bedroom2.jpg" alt=""></div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="page1block5">
+        <h2>“From the first meeting, we appreciated the involvement of the team in the realization of our very
+            complex and very personalized kitchen project. ”</h2>
+    </div>
+    <div class="vl"></div>
+
+    <div class="services-block">
+        <div class="a0">
+            <h1 class="lastheadings">Our Services</h1>
+            <p class="paraLast">The customer experience is at the heart of our motivations. Although we mainly work
+                with
+                designers,
+                architects
+                and other industry professionals, we regularly work directly with the client for one-off projects.
+                We
+                support
+                you throughout your project. </p>
+            <img src="dinning.jpeg" alt="dinning">
+        </div>
+
+
+        <div class="a1">
+            <h2 class="lastheadings"> measurements</h2>
+            <p class="paraLast">
+                We will travel to the site to take an accurate record of the measurements necessary for the
+                production
+                of shop drawings.</p>
+            <img src="dinning.jpeg" alt="dinning">
+        </div>
+
+        <div class="a2">
+            <h2 class="lastheadings">Workshop drawings</h2>
+            <p class="paraLast">We produce shop drawings accompanied by 3D modeling. This step allows us to ensure
+                that our
+                understanding
+                of the project matches the client's expectations. These drawings are also the link to the
+                manufacturing.
+            </p>
+            <img src="dinning.jpeg" alt="dinning">
+        </div>
+        <div class="a3">
+            <h2 class="lastheadings">Manufacturing</h2>
+            <p class="paraLast">We are specialized in the manufacture of high-end custom residential, commercial and
+                institutional
+                furniture. Custom-made kitchens, bathroom furniture, custom-made cupboards and storage.</p>
+            <img src="dinning.jpeg" alt="dinning">
+        </div>
+        <div class="a4">
+            <h2 class="lastheadings">Finish</h2>
+            <p class="paraLast">All the finishing steps are done on site in our workshops in our two painting rooms
+                by our team
+                of
+                trained painters.</p>
+            <img src="dinning.jpeg" alt="dinning">
+        </div>
+        <div class="a5">
+            <h2 class="lastheadings">Installation</h2>
+            <p class="paraLast">Since a project is only completed once it has taken root in its environment, we
+                offer an
+                installation
+                service in the Oakly Homes region and its surroundings by our qualified workforce for a perfect
+                integration
+                into your space.</p>
+        </div>
+    </div>
+    <div>
+        <p id="roundTag"> <a href="achievements.html">Projects</a> </p>
+    </div>
+
+    <footer class="page1blockFooter">
+        <div class="footer">
+
+            <div class="footerLogoBox">
+                <p>
+                    <img src="logo3.png" alt="oaklyhomes logo">
+                </p>
+            </div>
+            <div class="footerContactBox">
+
+                <ul>
+                    <li> <a style="text-decoration: none" href="aboutpage.html">About Us</a> <br /><br /></li>
+                    <li> <a style="text-decoration: none" href="contactpage.html">Delivery</a> <br /><br /></li>
+                    <li> <a style="text-decoration: none" href="contactpage.html">Warrenties</a> <br /><br /></li>
+                    <li> <a style="text-decoration: none" href="contactpage.html">Maintainance</a> <br /><br /></li>
+                </ul>
+
+
+                <ul>
+                    <li><a style="text-decoration: none" href="contactpage.html">Contact</a> <br /><br /></li>
+                    <li>ph:042356789 <br /><br /></li>
+                    <li> <a style="text-decoration: none" href="homepage.html">info@oaklyhomes.com</a> <br /><br /></li>
+                </ul>
+
+            </div>
+            <div class="footerIconBox">
+                <p>
+                    <a href="#" class="fa fa-facebook">f</a>
+                    <a href="#" class="fa fa-twitter">t</a>
+                    <a href="#" class="fa fa-linkedin">In</a>
+                    <a href="#" class="fa fa-pinterest">p</a>
+                </p>
+                <p id="letterbox"> News Letter</p>
+                <p> <label for="email">email us</label>
+                    <input type="email" id="email" name="email">
+                    <input type="submit" value="&#8250;" class="submit"></p>
+            </div>
+
+        </div>
+        <p class="rights">2020 @ll rights reserved - website By Irum Zafar</p>
+    </footer>
+
+
+</body>
+
+</html>

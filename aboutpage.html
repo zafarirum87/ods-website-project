@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Oakly Homes collection </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="stylesheet4.css">
+</head>
+
+<body>
+    <header class="navbar">
+        <ul>
+            <li id="homenav"><a style="text-decoration: none" href="homepage.html">Oakly Homes</a></li>
+        </ul>
+        <hr>
+        <ul>
+            <li class="active"><a style="text-decoration: none" href="achievements.html">projects</a></li>
+            <li class="active"><a style="text-decoration: none" href="collectionpage.html">collection</a></li>
+            <li class="active"><a style="text-decoration: none" href="aboutpage.html">about</a></li>
+            <li class="active"><a style="text-decoration: none" href="contactpage.html">contact</a></li>
+        </ul>
+        <div class="hovereffect"></div>
+        <hr>
+    </header>
+    <div class="mainimage">
+        <p>
+
+            <img src="machine-1.jpg" alt="factory picture">
+
+        </p>
+    </div>
+    <div class="firstblock">
+        <h1> Our mission</h1>
+        <p>Offer a product of quality and an exceptional experience without any compromises.</p>
+    </div>
+    <div class="vl"></div>
+    <div class="secondmainheading">
+        <h1> How We Manufacture</h1>
+        <p>We are equipped with tools at the cutting edge of technology which allow us to offer a product of
+            impeccable quality. Our workshops are equipped with a machining center, a digital broadband sander, all
+            the traditional cabinetmaking tools and two finishing booths.</p>
+    </div>
+    <div class="imagebox">
+
+        <!-- the html and java code  is taken from w3doc school> -->
+        <div class="slide-container">
+            <div class="w3-content w3-display-container">
+                <img class="mySlides" src="pexels-cleyder-duque-3637826.jpg" alt="furniture-pic">
+                <img class="mySlides" src="pexels-cleyder-duque-3637786.jpg" alt="furniture-pic">
+                <img class="mySlides" src="pexels-cleyder-duque-3637826.jpg " alt="furniture-pic">
+                <img class="mySlides" src="pexels-cleyder-duque-3637786.jpg" alt="furniture-pic">
+
+
+                <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+            </div>
+
+            <script>
+                var slideIndex = 1;
+                showDivs(slideIndex);
+
+                function plusDivs(n) {
+                    showDivs(slideIndex += n);
+                }
+
+                function showDivs(n) {
+                    var i;
+                    var x = document.getElementsByClassName("mySlides");
+                    if (n > x.length) { slideIndex = 1 }
+                    if (n < 1) { slideIndex = x.length }
+                    for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";
+                    }
+                    x[slideIndex - 1].style.display = "block";
+                }
+            </script>
+        </div>
+    </div>
+    <div>
+        <div class="historybox">
+            <h1 id="storyHeading">Our story</h1>
+            <img src="workshop-1.jpg" alt="workshop image" class="historyimages">
+        </div>
+        <div>
+            <h1 id="journey">Journey from 1992 untill now</h1>
+        </div>
+    </div>
+    <div class="tableimages">
+        <div class="workerimages">
+            <h3>Work Titles</h3>
+        </div>
+        <div class="workerimages">
+            <h3>Work Titles</h3>
+        </div>
+        <div class="workerimages">
+            <h3>Work Titles</h3>
+        </div>
+    </div>
+    <div class="tableimages2">
+        <div class="workerimages2">
+            <h3>Work Titles</h3>
+        </div>
+        <div class="workerimages2">
+            <h3>Work Titles</h3>
+        </div>
+        <div class="workerimages2">
+            <h3>Work Titles</h3>
+        </div>
+    </div>
+    <div>
+
+        <h1 id="cv-sect"> We are always looking for new talent. Send us your CV to @oaklyhomes.com</h1>
+
+    </div>
+    <div>
+        <p>
+            <a id="roundTag" href="contactpage.html">Contact</a>
+        </p>
+    </div>
+
+    <footer class="page1blockFooter">
+        <div class="footer">
+
+            <div class="footerLogoBox">
+                <p>
+                    <img src="logo3.png" alt="oaklyhomes logo">
+                </p>
+            </div>
+            <div class="footerContactBox">
+
+                <ul>
+                    <li> <a style="text-decoration: none" href="aboutpage.html">About Us</a> <br /><br /></li>
+                    <li> <a style="text-decoration: none" href="contactpage.html">Delivery</a> <br /><br /></li>
+                    <li> <a style="text-decoration: none" href="contactpage.html">Warrenties</a> <br /><br /></li>
+                    <li> <a style="text-decoration: none" href="contactpage.html">Maintainance</a> <br /><br /></li>
+                </ul>
+                <ul>
+                    <li><a style="text-decoration: none" href="contactpage.html">Contact</a> <br /><br /></li>
+                    <li>ph:042356789 <br /><br /></li>
+                    <li> <a style="text-decoration: none" href="homepage.html">info@oaklyhomes.com</a> <br /><br />
+                    </li>
+                </ul>
+            </div>
+            <div class="footerIconBox">
+                <p>
+                    <a href="#" class="fa fa-facebook">f</a>
+                    <a href="#" class="fa fa-twitter">t</a>
+                    <a href="#" class="fa fa-linkedin">In</a>
+                    <a href="#" class="fa fa-pinterest">p</a>
+                </p>
+                <p id="letterbox"> News Letter</p>
+                <p> <label for="email">email us</label>
+                    <input type="email" id="email" name="email">
+                    <input type="submit" value="&#8250;" class="submit"></p>
+            </div>
+        </div>
+        <p class="rights">2020 @ll rights reserved - website By Irum Zafar</p>
+    </footer>
+
+</body>
