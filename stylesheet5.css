@@ -58,6 +58,24 @@ ul {
 .navbar a {
   color: black;
 }
+.navbar {
+  position: fixed;
+  background-color:#ece9e3 ;
+  animation-name: dropdown;
+  animation-duration: 3s;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-timing-function: linear;
+}
+@keyframes dropdown {
+from {top: -8em;}
+to {top: 0.5em;}
+}
+li a:hover:not(.active) {
+  background-color: #ada89e;
+  width: 1.5em;
+}
 .contactHeadingPage5 {
   font-size: 2em;
   background-image: linear-gradient(

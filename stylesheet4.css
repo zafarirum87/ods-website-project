@@ -60,6 +60,24 @@ ul {
   text-align: center;
   justify-content: center;
 }
+.navbar {
+  position: fixed;
+  background-color:#ece9e3 ;
+  animation-name: dropdown;
+  animation-duration: 3s;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-timing-function: linear;
+}
+@keyframes dropdown {
+from {top: -8em;}
+to {top: 0.5em;}
+}
+li a:hover:not(.active) {
+  background-color: #ada89e;
+  width: 1.5em;
+}
 .mainimage img {
   height: 23em;
   margin-left: auto;
@@ -170,10 +188,10 @@ padding-left: 10em;
 .workerimages {
   width: 20em;
   height: 20em;
-  padding: 2em 2em;
+  padding: 1em 1em;
   margin-top: 6em;
   margin-bottom: 3em;
-  margin-left: 7em;
+  margin-left: 6em;
   margin-right: 2em;
   background-color: rgba(214, 208, 195, 0.94);
   float: left;
@@ -187,10 +205,10 @@ padding-left: 10em;
 .workerimages2 {
   width: 20em;
   height: 20em;
-  padding: 2em 2em;
+  padding: 1em 1em;
   margin-top: 3em;
   margin-bottom: 0em;
-  margin-left: 7em;
+  margin-left: 6em;
   margin-right: 2em;
   background-color: rgba(214, 208, 195, 0.94);
   float: left;
@@ -208,14 +226,16 @@ padding-left: 10em;
     rgba(214, 208, 195, 0.94),
     rgba(236, 233, 227, 0.94)
   );
+  padding: 20px 0 ;
   text-align: center;
   width: 4em;
+  height: 4em;
   height: auto;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 0em;
-  margin-top: 2em;
+  margin-top: 1em;
   font-size: 6vw;
   font-weight: normal;
   font-family: "Made mirage webfont", "Palatino Linotype", sans-serif;
@@ -223,7 +243,7 @@ padding-left: 10em;
   text-decoration: none;
   letter-spacing: 0.5px;
   line-height: 3.5em;
-  vertical-align: middle;
+  
 }
 #roundTag a {
   color: black;
