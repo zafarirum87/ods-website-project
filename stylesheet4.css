@@ -85,8 +85,10 @@ li a:hover:not(.active) {
   margin-bottom: 5em;
   padding-left: 1em;
   padding-right: 1em;
-  width: 55em;
+  width: 50em;
   opacity: 0.5;
+  width: 100%;
+  height: auto;
 }
 .firstblock {
   margin: auto auto;
@@ -112,11 +114,17 @@ li a:hover:not(.active) {
   z-index: -1;
 }
 .secondmainheading {
-  margin-top: 12em;
+  margin-top: 5em;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 10em;
-  padding-right: 10em;
+
+}
+#paragraph1 {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 5em;
+  padding-right: 5em;
+
 }
 .imagebox {
   width: 70em;
@@ -126,6 +134,8 @@ li a:hover:not(.active) {
   margin: 6em;
   margin-top: 6em;
   box-sizing: content-box;
+  max-width: 100%;
+  height: auto;
 }
 .slide-container {
   display: inline-block;
@@ -159,7 +169,8 @@ padding-left: 10em;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 0em;
-  box-sizing: content-box;
+  max-width: 100%;
+
 }
 .historyimages {
   width: 40em;
@@ -173,6 +184,11 @@ padding-left: 10em;
   margin-right: auto;
   margin-bottom: 30em;
   z-index: 1;
+}
+#storyHeading {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 3em;
 }
 #journey {
   font-size: 3em;
@@ -243,7 +259,7 @@ padding-left: 10em;
   text-decoration: none;
   letter-spacing: 0.5px;
   line-height: 3.5em;
-  
+
 }
 #roundTag a {
   color: black;
@@ -262,6 +278,8 @@ padding-left: 10em;
   margin-top: 0em;
   line-height: 1em;
   box-sizing: content-box;
+  max-width: 100%;
+  height: auto;
 }
 .footerLogoBox {
   width: 18em;

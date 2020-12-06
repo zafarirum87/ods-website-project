@@ -191,6 +191,8 @@ h2 {
   margin-left: 4em;
   margin-right: 4em;
   margin-bottom: 5em;
+  max-width: 100%;
+  height: auto;
 }
 .block1 > div {
   background-color: black;
@@ -200,6 +202,8 @@ h2 {
   margin: 2em;
   width: 60em;
   height: 22em;
+  max-width: 100%;
+  height: auto;
 }
 #roundTag {
   border-radius: 200px 200px 0px 0px;
@@ -243,6 +247,8 @@ margin-left: 6em;
 margin-top: 0em;
 line-height: 1em;
 box-sizing: content-box;
+max-width: 100%;
+height: auto;
   }
   .footerLogoBox {
       width: 18em;
@@ -366,4 +372,14 @@ padding-top: 0em;
       line-height: 0.5em;
       font-style: italic;
       font-weight: lighter;
+  }
+  @media screen and (max-width: 320px) {
+    body {
+      overflow: hidden;
+      width: 100%;
+      padding: 0em;
+    }
+    .block1 {
+      width: 100%;
+    }
   }
